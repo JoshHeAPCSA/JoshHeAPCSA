@@ -1,0 +1,145 @@
+package newjava;
+public class FRQ2024 {
+public static void main(String[] args) {
+	
+}
+public static void onea() {
+/*
+ * public void simulateOneDay(int numBirds)
+{
+    if(Math.random() < 0.95)
+    {
+        int foodPerBird = (int) (Math.random() * 41) + 10;
+        currentFood -= numbirds * foodperbird;
+        if(currentfood < 0)
+            currentfood = 0;
+    }
+    else
+    {
+        currentfood = 0;
+    }
+}
+ * 
+ */
+}
+public static void oneb() {
+/*
+ * public int simulateManyDays(int numBirds, int numDays)
+{
+    int daysLeft = numDays, Foodleft = 0;
+    while(daysLeft > 0 && currentfood > 0)
+    {
+        daysLeft--;
+        Foodleft++;
+        simulateOneDay(numBirds);
+    }
+    return Foodleft;
+}
+ */
+}
+public static void two() {
+	/*public class Scoreboard
+	{
+	    private String team1Name, team2Name;
+	    private int team1Points, team2Points;
+	    private boolean team1Active;
+	    
+	    public Scoreboard(String team1Name, String team2Name)
+	    {
+	        this.team1Name = team1Name;
+	        this.team2Name = team2Name;
+	        team1Points = 0;
+	        team2Points = 0;
+	        team1Active = true;
+	    }
+	    
+	    public void recordPlay(int points)
+	    {
+	        if(points != 0)
+	        {
+	            if(team1Active)
+	                team1Points += points;
+	            else
+	                team2Points += points;
+	        }
+	        else
+	        {
+	            team1Active = ! team1Active;
+	        }
+	    }
+	    
+	    public String getScore()
+	    {
+	        String activeTeamName = team1Name;
+	        if( ! team1Active )
+	            activeTeamName = team2Name;
+	        
+	        return team1Points + "-" + team2Points + "-" + activeTeamName;
+	    }
+*/	}
+public static void threea() {
+/*	public boolean isWordChain()
+	{
+	    for(int i = 1; i < wordList.size(); i++)
+	    {
+	        if(wordList.get(i).indexOf(
+	                wordList.get(i - 1)) == -1)
+	            return false;
+	    }
+	    
+	    return true;
+	*/}
+public static void threeb() {
+	/*public ArrayList<String> createList(String target)
+	{
+	    ArrayList<String> result = new ArrayList<String>();
+	    
+	    for(String word : wordList)
+	    {
+	        if(word.indexOf(target) == 0)
+	            result.add(word.substring(target.length()));
+	    }
+	    
+	    return result;
+	    */
+}
+public static void foura() {
+	/*public Location getNextLoc(int row, int col)
+	{
+	    Location belowLoc = new Location(row + 1, col);
+	    Location rightLoc = new Location(row, col + 1);
+	    
+	    if(row == grid.length - 1)
+	        return rightLoc;
+	    
+	    if(col == grid[0].length - 1)
+	        return belowLoc;
+	    
+	    if(grid[row + 1][col] < grid[row][col + 1])
+	        return belowLoc;
+	    else
+	        return rightLoc;
+	}
+	*/
+}
+public static void fourb() {
+	/*public int sumPath(int row, int col)
+	{
+	    int sum = grid[row][col];
+	    Location loc = getNextLoc(row, col);
+	    while(loc != null)
+	    {
+	        sum += grid[loc.getRow()][loc.getCol()];
+	        
+	        if(loc.getRow() < grid.length - 1 ||
+	                loc.getCol() < grid[0].length - 1)
+	            loc = getNextLoc(loc.getRow(), loc.getCol());
+	        else
+	            loc = null;
+	    }
+	    return sum;
+	}
+	*/
+}
+}
+
