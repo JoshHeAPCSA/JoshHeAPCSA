@@ -1,0 +1,21 @@
+//*
+Task 4
+Vowel Count
+Directions: 
+Write a method called “vowelCount” that…
+Accepts a String as a parameter,
+Returns an array of integers representing the number of each vowel in the String.
+
+For example, the string “Tesla Stem” should return the following array: [1, 2, 0, 0, 0].  Your return array should have 5 elements.  Index 0 counts the number of As, index 1 counts the number of Es, index 2 counts the number of Is, etc. (Assume Y is not a vowel).
+*//
+==================================================================================
+//Task 5 Facebook Interview
+//*Directions: 
+Write a method called “rotate” that…
+Takes two parameters:
+An array of ints,
+An integer, k.
+Shifts all elements of the array by k positions.
+
+For example, rotate([1, 2, 3, 4, 5, 6], 2) should change the array to:  		[3, 4, 5, 6, 1, 2]. 
+*//
